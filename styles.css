@@ -10,8 +10,8 @@
 .square {
   width: 15px;
   height: 15px;
-  background-color: #eee;
- /* transition: background-color 1s; /* smooth fade */
+  background-color: #111;
+ transition: background-color 1s; /* smooth fade */
 	background-color:black;
 }
 
