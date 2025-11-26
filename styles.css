@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+.container {
+  display: grid;
+  grid-template-columns: repeat(40, 1fr); /* 40 × 20 = 800 boxes */
+  width: 600px;
+  margin: 20px auto;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+  background-color: #eee;
+  transition: background-color 1s; /* smooth fade */
+}
+
+.square:hover {
+  background-color: orange;
+}
